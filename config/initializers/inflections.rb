@@ -12,6 +12,7 @@
 
 ActiveSupport::Inflector.inflections(:"pt-BR") do |inflect|
   inflect.plural "comentário", "comentários"
+  inflect.plural "resultados", "resultado"
 end
 
 # These inflection rules are supported but not enabled by default:

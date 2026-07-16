@@ -1,4 +1,4 @@
-# Blog do Athyrson
+# Blog 
 
 Blog desenvolvido com Ruby on Rails 8 para fins de estudo, com CRUD de posts e comentários, busca, sistema de flash messages e layout estilizado com Bootstrap 5.
 

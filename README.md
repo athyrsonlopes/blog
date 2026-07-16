@@ -1,24 +1,23 @@
-# README
+# Blog do Athyrson
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Blog desenvolvido com Ruby on Rails 8 para fins de estudo, com CRUD de posts e comentários, busca, sistema de flash messages e layout estilizado com Bootstrap 5.
 
-Things you may want to cover:
+## Funcionalidades
+- CRUD de posts (criar, listar, editar, apagar)
+- Comentários em posts
+- Busca por posts
+- URLs amigáveis (friendly_id)
+- Internacionalização em pt-BR
 
-* Ruby version
+## Tecnologias
+- Ruby on Rails 8
+- PostgreSQL
+- Bootstrap 5
+- Import Maps
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Como rodar localmente
+\`\`\`bash
+bundle install
+rails db:create db:migrate
+rails s
+\`\`\`
